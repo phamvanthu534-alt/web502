@@ -148,3 +148,24 @@ Lưu ý: Type assertions không thay đổi giá trị thực tế, chỉ thay �
 ## Kết Luận
 
 TypeScript giúp tăng cường khả năng kiểm tra kiểu và bảo trì mã nguồn. Các kiểu dữ liệu cơ bản và tính năng như type inference, union types, và type assertions giúp lập trình viên viết mã an toàn và dễ đọc hơn. Hãy bắt đầu sử dụng TypeScript trong dự án của bạn để tận dụng sức mạnh của kiểm tra kiểu tĩnh!
+
+## Lab 2
+
+- Tạo type Product có các trường sau:
+
+  - name: string
+  - price: number
+  - sale: boolean
+  - rate: enum {low : 'Thấp', medium: 'Trung bình', hight : 'Cao'}
+
+- Tạo mảng listProducts có các phần tử có kiểu Product
+
+  - Nhập ít nhất 5 phần tử
+
+- Viết hàm thêm mới 1 phần tử vào mảng listProducts có key = description, có giá trị = 'Tốt' nếu price > 5, 'Bình thường' nếu price <=5 (sử dụng map)
+
+- Viết hàm hiển thị danh sách sản phẩm: (Tên sản phẩm, giá bán, trạng thái sale,Đánh giá) (Sử dụng forEach)
+
+- Viết hàm tính tổng giá bán sản phẩm (sử dụng reduce)
+
+- Viết hàm lọc những sản phẩm đang Sale và đánh giá từ Trung bình trở lên (Sử dụng filter)
